@@ -4,12 +4,11 @@ import { NotificationsNone , Language ,Settings } from '@mui/icons-material';
 
 export default function TopBar() {
   return (
-    <div>
       <div className="topbar">
         <div className="topbarWrapper">
 
           <div className="topbarLeft">
-            <span className="logo">adminDash</span>
+            <span className="logo">ladminDash</span>
           </div>
 
           <div className="topbarRight">
@@ -29,6 +28,5 @@ export default function TopBar() {
 
         </div>
        </div>
-    </div>
   )
 }

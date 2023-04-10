@@ -1,0 +1,60 @@
+.widgetSmall{
+    flex: 1;
+    -webkit-box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.43);
+        box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.43);
+    margin: 0px 20px 20px 0;
+    padding: 20px;
+}
+
+.widgetSmallList{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px;
+}
+.widgetSmallName{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.widgetSmallLocation{
+    color: #555;
+}
+
+.widgetSmallPerson{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.widgetSmallImg{
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     margin-right: 5px;
+}
+
+.widgetSmallIdentity{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #eeeef7;
+    color: #555;
+}
+
+.widgetSmallIcon{
+    margin-right: 5px;
+    font-size: 16px !important;
+}

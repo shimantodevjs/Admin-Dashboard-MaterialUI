@@ -2,7 +2,7 @@
     flex: 1;
     height: calc(100vh-50px);
     position: sticky;
-    top: 50;
+    top: 50px;
 }
 
 .sidebarWrapper{
